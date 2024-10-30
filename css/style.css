@@ -260,6 +260,49 @@
     justify-content: center;
 }
 
+.experience-container {
+    display: flex;
+    flex-direction: column; /* Stack vertically on mobile */
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  
+  /* Experience badge styling */
+  .experience-badge {
+    background-color: #007bff;
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    max-width: 80%; /* Keep it responsive */
+  }
+  
+  /* Responsive image styling */
+  .experience-image {
+    width: 100%; /* Make the image full width */
+    height: auto;
+    max-width: 500px; /* Optional max width for larger screens */
+    border-radius: 10px;
+  }
+  
+  /* Adjust layout for larger screens */
+  @media (min-width: 768px) {
+    .experience-container {
+      flex-direction: row; /* Side by side on larger screens */
+      justify-content: space-between;
+    }
+    .experience-badge {
+      margin-bottom: 0;
+      margin-right: 20px;
+      max-width: 200px; /* Limit width on larger screens */
+    }
+  }
+
 
 /*** Service ***/
 .service-item {
