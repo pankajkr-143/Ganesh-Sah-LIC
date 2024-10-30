@@ -1,0 +1,162 @@
+/* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  .topbar {
+    font-size: 0.875rem;
+  }
+  
+  .topbar a {
+    text-decoration: none;
+  }
+  
+  .navbar-brand img {
+    width: 40px;
+  }
+  
+  .navbar-nav .nav-link {
+    color: #333;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #007bff;
+    border-bottom: 2px solid #007bff;
+  }
+  
+  .navbar-nav .dropdown-menu {
+    background-color: #f8f9fa;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    border-radius: 5px;
+  }
+  
+  .page-header {
+    background-image: url('img/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #333;
+  }
+  
+  .page-header h1 {
+    color: #333;
+    margin-bottom: 1.5rem;
+  }
+  
+  .breadcrumb {
+    background: none;
+  }
+  
+  .breadcrumb a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .breadcrumb-item.active {
+    color: #333;
+  }
+
+  /* Footer Section */
+.footer-section {
+    background-color: #0a1425;
+    color: white;
+    padding: 50px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-section h3, .footer-section h4 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.footer-section p {
+    color: #b0bec5;
+    font-size: 14px;
+}
+
+.footer-logo p {
+    max-width: 300px;
+}
+
+.footer-logo .social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #b0bec5;
+    font-size: 18px;
+}
+
+.footer-logo .social-icons a:hover {
+    color: #007bff;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-section ul li {
+    color: #b0bec5;
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #b0bec5;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    color: #007bff;
+}
+
+.footer-section .col-lg-2 ul {
+    padding-left: 20px;
+}
+
+.footer-section form input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+}
+
+.footer-section form button {
+    padding: 8px 15px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.footer-section form button:hover {
+    background-color: #0056b3;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    color: #b0bec5;
+    font-size: 14px;
+}
+
+.footer-bottom a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
